@@ -1,0 +1,23 @@
+---
+BasedOnStyle: WebKit
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: true
+AlignOperands: true
+AllowShortFunctionsOnASingleLine: All
+BinPackArguments: false
+BraceWrapping:
+  AfterClass: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterStruct: true
+  AfterUnion: true
+  BeforeElse: true
+BreakBeforeBraces: Allman
+Cpp11BracedListStyle: true
+IndentCaseLabels: true
+IndentWidth: 4
+MaxEmptyLinesToKeep: 2
+NamespaceIndentation: All
+SortIncludes: false
+SpaceAfterTemplateKeyword: true
+UseTab: Never
