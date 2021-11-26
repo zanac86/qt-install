@@ -16,7 +16,7 @@ for %i in (*.whl) do pip install --no-index --no-deps %i
 ## Install matplotlib, PySide2, numpy
 
 ```
-pip install -U pip aqtinstall autopep8 numpy matplotlib pillow pylint pyside2 setuptools pysimplegui psutil pandas pygame pyinstaller yapf
+pip install -U pip aqtinstall autopep8 numpy matplotlib pillow pylint pyside2 setuptools pysimplegui psutil pandas pygame pyinstaller yapf esptool
 ```
 
 ## Manage installed packages
