@@ -35,12 +35,12 @@ aqt install-tool windows desktop tools_mingw     qt.tools.win64_mingw810
 :: Prebuilt Qt libs with tools (qmake, uic, moc)
 aqt install-qt windows desktop 5.14.2 win64_mingw73
 aqt install-qt windows desktop 5.15.2 win64_mingw81
-aqt install-qt windows desktop 6.2.0 win64_mingw81 -m qtmultimedia qtserialport qtimageformats qt5compat
+aqt install-qt windows desktop 6.2.2 win64_mingw -m qtmultimedia qtserialport qtimageformats qt5compat
 
 :: Qt source files
-aqt install-src windows desktop 5.15.2
-aqt install-src windows desktop 6.2.0
+aqt install-src windows 5.15.2
+aqt install-src windows 6.2.2
 
 :: Qt help files
-aqt install-doc windows desktop 5.15.2
-aqt install-doc windows desktop 6.2.0
+aqt install-doc windows 5.15.2
+aqt install-doc windows 6.2.2

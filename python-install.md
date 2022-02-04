@@ -17,6 +17,14 @@ for %i in (*.whl) do pip install --no-index --no-deps %i
 
 ```
 pip install -U pip aqtinstall autopep8 numpy matplotlib pillow pylint pyside2 setuptools pysimplegui psutil pandas pygame pyinstaller yapf esptool
+pip install -U tabulate
+
+from tabulate import tabulate
+table = [['one','two','three'],['four','five','six'],['seven','eight','nine']]
+print(tabulate(table, tablefmt='html'))
+
+pip install -U prettytable
+
 ```
 
 ## Manage installed packages
