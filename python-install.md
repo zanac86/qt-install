@@ -5,7 +5,8 @@
 ## Install package from local file
 
 ```
-pip install --no-index --no-deps --upgrade matplotlib-3.4.3-cp39-cp39-win_amd64.whl
+pip install --no-index --no-deps --upgrade matplotlib-3.5.1-cp39-cp39-win_amd64.whl
+pip install --no-index --find-links . matplotlib-3.5.1-cp39-cp39-win_amd64.whl
 ```
 
 ```
@@ -16,8 +17,8 @@ for %i in (*.whl) do pip install --no-index --no-deps %i
 ## Install matplotlib, PySide2, numpy
 
 ```
-pip install -U pip aqtinstall autopep8 numpy matplotlib pillow pylint pyside2 setuptools pysimplegui psutil pandas pygame pyinstaller yapf esptool
-pip install -U tabulate
+pip install -U pip aqtinstall autopep8 numpy matplotlib pillow pylint pyside2 setuptools pysimplegui psutil pandas pygame pyinstaller yapf esptool tabulate
+pip install pillow pycairo mplcairo tornado wxpython
 
 from tabulate import tabulate
 table = [['one','two','three'],['four','five','six'],['seven','eight','nine']]
@@ -25,6 +26,25 @@ print(tabulate(table, tablefmt='html'))
 
 pip install -U prettytable
 
+```
+
+## Package list manage
+
+```
+pip freeze > requirement.txt
+pip install -r requirement.txt
+```
+
+## Offline install
+
+Download package with dependencies.
+
+```
+pip download pip aqtinstall autopep8 numpy matplotlib pillow pylint pyside2 setuptools pysimplegui psutil pandas pygame pyinstaller yapf esptool tabulate
+```
+
+```
+pip download matplotlib
 ```
 
 ## Manage installed packages

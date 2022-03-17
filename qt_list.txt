@@ -1,0 +1,95 @@
+==================================================          
+==================================================         
+aqt list-qt windows desktop                                
+5.9.0 5.9.1 5.9.2 5.9.3 5.9.4 5.9.5 5.9.6 5.9.7 5.9.8 5.9.9
+5.10.0 5.10.1
+5.11.0 5.11.1 5.11.2 5.11.3
+5.12.0 5.12.1 5.12.2 5.12.3 5.12.4 5.12.5 5.12.6 5.12.7 5.12.8 5.12.9 5.12.10 5.12.11 5.12.12
+5.13.0 5.13.1 5.13.2
+5.14.0 5.14.1 5.14.2
+5.15.0 5.15.1 5.15.2
+6.0.0 6.0.1 6.0.2 6.0.3 6.0.4
+6.1.0 6.1.1 6.1.2 6.1.3
+6.2.0 6.2.1 6.2.2 6.2.3 6.2.4
+6.3.0
+==================================================         
+aqt list-qt windows desktop --modules 6.3.0 win64_mingw    
+debug_info qt3d qt5compat qtactiveqt qtcharts qtconnectivity qtdatavis3d qtimageformats qtlanguageserver qtlottie qtmultimedia qtnetworkauth qtpositioning qtquick3d qtquicktimeline qtremoteobjects qtscxml qtsensors qtserialbus qtserialport qtshadertools qtvirtualkeyboard qtwebchannel qtwebsockets qtwebview
+==================================================         
+aqt list-tool windows desktop                              
+tools_cmake
+tools_conan
+tools_generic
+tools_ifw
+tools_maintenance
+tools_maintenance_early_access
+tools_maintenance_update_reminder
+tools_mingw
+tools_mingw90
+tools_ninja
+tools_openssl_src
+tools_openssl_x64
+tools_openssl_x86
+tools_qt3dstudio
+tools_qt3dstudio_openglruntime_240
+tools_qt3dstudio_openglruntime_250
+tools_qt3dstudio_openglruntime_260
+tools_qt3dstudio_openglruntime_270
+tools_qt3dstudio_openglruntime_270_5150
+tools_qt3dstudio_openglruntime_280
+tools_qt3dstudio_openglruntime_280_5151
+tools_qt3dstudio_openglruntime_preview
+tools_qt3dstudio_preview
+tools_qt3dstudio_runtime
+tools_qt3dstudio_runtime_210
+tools_qt3dstudio_runtime_220
+tools_qt3dstudio_runtime_230
+tools_qt3dstudio_runtime_240
+tools_qt3dstudio_runtime_preview
+tools_qtcreator
+tools_qtcreator_preview
+tools_qtdesignstudio
+tools_qtdesignstudio_generation2
+tools_qtdesignstudio_generation2_preview
+tools_qtdesignstudio_preview
+tools_telemetry
+tools_telemetry_preview
+tools_vcredist
+==================================================         
+aqt list-tool windows desktop tools_mingw -l               
+   Tool Variant Name            Version          Release Date      Display Name                     Description               
+==============================================================================================================================
+qt.tools.mingw47          4.7.2-1-1              2013-07-01     MinGW 4.7 32-bit     MinGW-builds 4.7.2 32-bit toolchain.     
+qt.tools.win32_mingw48    4.8.0-1-1              2013-07-01     MinGW 4.8 32-bit     MinGW-builds 4.8.0 32-bit toolchain.     
+qt.tools.win32_mingw482   4.8.2                  2014-05-08     MinGW 4.8.2 32-bit   MinGW-builds 4.8.2 rev3 32-bit toolchain.
+qt.tools.win32_mingw491   4.9.1-3                2016-05-31     MinGW 4.9.1 32-bit   MinGW-builds 4.9.1 32-bit toolchain.     
+qt.tools.win32_mingw492   4.9.2-1                2016-05-31     MinGW 4.9.2 32-bit   MinGW-builds 4.9.2 32-bit toolchain.     
+qt.tools.win32_mingw530   5.3.0-2                2017-04-27     MinGW 5.3.0 32-bit   MinGW-builds 5.3.0 32-bit toolchain.     
+qt.tools.win32_mingw730   7.3.0-1-202004170606   2020-04-17     MinGW 7.3.0 32-bit   MinGW-builds 7.3.0 32-bit toolchain.     
+qt.tools.win32_mingw810   8.1.0-1-202004170606   2020-04-17     MinGW 8.1.0 32-bit   MinGW-builds 8.1.0 32-bit toolchain.     
+qt.tools.win64_mingw730   7.3.0-1-202004170606   2020-04-17     MinGW 7.3.0 64-bit   MinGW-builds 7.3.0 64-bit toolchain.     
+qt.tools.win64_mingw810   8.1.0-1-202004170606   2020-04-17     MinGW 8.1.0 64-bit   MinGW-builds 8.1.0 64-bit toolchain.     
+==================================================         
+aqt list-tool windows desktop tools_qtcreator -l           
+       Tool Variant Name                Version          Release Date               Display Name                                         Description                         
+=============================================================================================================================================================================
+qt.tools.qtcreator                6.0.2-0-202201181159   2022-01-18     Qt Creator 6.0.2                        IDE for Qt application development                           
+qt.tools.qtcreatorcdbext          6.0.2-0-202201181159   2022-01-18     Qt Creator 6.0.2 CDB Debugger Support   CDB Debugger support for Qt Creator                          
+qt.tools.qtcreatordbg             6.0.2-0-202201181159   2022-01-18     Qt Creator 6.0.2 Debug Symbols          Additional symbol files required to debug Qt Creator         
+qt.tools.qtcreatordev             6.0.2-0-202201181159   2022-01-18     Qt Creator 6.0.2 Plugin Development     Headers and libs required to develop additional plugins      
+qt.tools.windows_kits_debuggers   2019-11-07-0           2022-01-18     Debugging Tools for Windows             Debugger and Tools Redistributable Packages for MSVC binaries
+==================================================         
+aqt list-tool windows desktop tools_vcredist -l            
+      Tool Variant Name            Version      Release Date           Display Name                                      Description                           
+===============================================================================================================================================================
+qt.tools.vcredist                2011-03-03-1   2014-11-17     VCRedist for MSVC 32bit        Needed by all included Qt applications.                          
+qt.tools.vcredist_msvc2015_x86   2017-02-01-0   2017-01-20     VCRedist for MSVC 2015 32bit   Visual C++ Redistributable Packages for Visual Studio 2015 32 bit
+qt.tools.vcredist_msvc2013_x64   2017-3-22-0    2017-03-23     VCRedist for MSVC 2013 64bit   Visual C++ Redistributable Packages for Visual Studio 2013 64 bit
+qt.tools.vcredist_msvc2015_x64   2017-03-22-0   2017-03-23     VCRedist for MSVC 2015 64bit   Visual C++ Redistributable Packages for Visual Studio 2015 64 bit
+qt.tools.vcredist_msvc2013_x86   2014-30-12-1   2019-04-16     VCRedist for MSVC 2013 32bit   Visual C++ Redistributable Packages for Visual Studio 2013 32 bit
+qt.tools.vcredist_msvc2017_x64   2019-02-13-1   2019-04-16     VCRedist for MSVC 2017 64bit   Visual C++ Redistributable Packages for Visual Studio 2017 64 bit
+qt.tools.vcredist_msvc2017_x86   2019-02-13-1   2019-04-16     VCRedist for MSVC 2017 32bit   Visual C++ Redistributable Packages for Visual Studio 2017 32 bit
+qt.tools.vcredist_64             2020-03-18     2020-03-19     VCRedist for MSVC 64bit        Needed by all included Qt applications.                          
+qt.tools.vcredist_msvc2019_x64   2020-05-19-1   2020-05-19     VCRedist for MSVC 2019 64bit   Visual C++ Redistributable Packages for Visual Studio 2019 64 bit
+qt.tools.vcredist_msvc2019_x86   2019-05-19-1   2020-05-19     VCRedist for MSVC 2019 32bit   Visual C++ Redistributable Packages for Visual Studio 2019 32 bit
+==================================================         
