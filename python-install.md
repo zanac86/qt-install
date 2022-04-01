@@ -17,8 +17,13 @@ for %i in (*.whl) do pip install --no-index --no-deps %i
 ## Install matplotlib, PySide2, numpy
 
 ```
-pip install -U pip aqtinstall autopep8 numpy matplotlib pillow pylint pyside2 setuptools pysimplegui psutil pandas pygame pyinstaller yapf esptool tabulate
-pip install pillow pycairo mplcairo tornado wxpython
+pip install -U pip aqtinstall autopep8 numpy matplotlib pillow pylint ^
+pyside2 setuptools pysimplegui psutil pandas pygame pyinstaller yapf ^
+esptool tabulate pillow pycairo mplcairo tornado wxpython scipy astroid ^
+charset-normalizer cryptography cycler fonttools isort lazy-object-proxy ^
+mccabe platformdirs py7zr pycparser pycryptodomex pyinstaller-hooks-contrib ^
+pip install -U pyparsing pyppmd pyzstd requests rope semantic-version ^
+setuptools-scm soupsieve tomli typing-extensions urllib3 wheel wrapt pyppmd
 
 from tabulate import tabulate
 table = [['one','two','three'],['four','five','six'],['seven','eight','nine']]
