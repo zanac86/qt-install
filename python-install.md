@@ -17,7 +17,8 @@ for %i in (*.whl) do pip install --no-index --no-deps %i
 ## Install matplotlib, PySide2, numpy
 
 ```
-pip install -U pip aqtinstall autopep8 numpy matplotlib pillow pylint ^
+pip install -U pybcj pytz lizard beautifulsoup4 kiwisolver virtualenv ^
+prettytable pip aqtinstall autopep8 numpy matplotlib pillow pylint ^
 pyside2 setuptools pysimplegui psutil pandas pygame pyinstaller yapf ^
 esptool tabulate pillow pycairo mplcairo tornado wxpython scipy astroid ^
 charset-normalizer cryptography cycler fonttools isort lazy-object-proxy ^
@@ -45,7 +46,7 @@ pip install -r requirement.txt
 Download package with dependencies.
 
 ```
-pip download pip aqtinstall autopep8 numpy matplotlib pillow pylint pyside2 setuptools pysimplegui psutil pandas pygame pyinstaller yapf esptool tabulate
+pip download pip pybcj pytz lizard beautifulsoup4 kiwisolver virtualenv prettytable autopep8 numpy pillow pylint pyside2 setuptools pysimplegui psutil pandas pygame pyinstaller yapf esptool tabulate matplotlib aqtinstall 
 ```
 
 ```
