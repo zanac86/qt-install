@@ -11,7 +11,9 @@ https://github.com/microsoft/winget-pkgs/tree/master/manifests/
 winget search warp
 
 winget install WinMerge.WinMerge
+winget install XnSoft.XnView.Classic
 winget install keepassxc
+
 winget install Cloudflare.Warp
 winget install OpenSCAD.OpenSCAD
-winget install XnSoft.XnView.Classic
+winget install Lazarus.Lazarus

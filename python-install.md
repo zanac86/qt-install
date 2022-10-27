@@ -24,7 +24,9 @@ esptool tabulate pillow pycairo mplcairo tornado wxpython scipy astroid ^
 charset-normalizer cryptography cycler fonttools isort lazy-object-proxy ^
 mccabe platformdirs py7zr pycparser pycryptodomex pyinstaller-hooks-contrib ^
 pip install -U pyparsing pyppmd pyzstd requests rope semantic-version ^
-setuptools-scm soupsieve tomli typing-extensions urllib3 wheel wrapt pyppmd
+setuptools-scm soupsieve tomli typing-extensions urllib3 wheel wrapt pyppmd ^
+certifi charset-normalizer dill filelock pefile
+
 
 from tabulate import tabulate
 table = [['one','two','three'],['four','five','six'],['seven','eight','nine']]
