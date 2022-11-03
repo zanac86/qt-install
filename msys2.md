@@ -4,7 +4,7 @@
 
 https://www.msys2.org/wiki/MSYS2-installation/
 
-pacman -Su
+pacman -Syu
 
 pacman -S git wget p7zip base-devel
 pacman -S mingw-w64-x86_64-cmake
